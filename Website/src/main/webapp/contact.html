@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="project-1/css/styles.css" type="text/css">
+<link rel="stylesheet" href="project-1/css/contact.css" type="text/css">
+
+<title>WebSite</title>
+</head>
+<body class="container">
+
+<div class="nav">
+<ul style="list-style:none">
+<div class="img">
+		<a href="index.jsp"> <img class="logo"	src="project-1/img/panda.png"></a>
+    </div>
+      <li class ="dropdown"><a href="store.html">Store</a>
+      	<ul class ="dropdown-menu">
+      		<li><a href="news.html">News</a></li>
+       		<li><a href="events.html">Events</a></li>
+      	</ul>
+     </li>
+      <li><a href="photo.html">Photo gallery</a></li>
+      <li><a href="about.html">About us</a></li>
+       <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<div class="section">
+<h1>Contact us:</h1>
+
+<form action="http://vip.groupehn.com:20003/html/infospost.php" method="post">
+
+<input class="yourclass" id="firstname" type="text" name="firstname" placeholder="firstname"/>
+<input class="yourclass" id="lastname" type="text" name="lastname" placeholder="lastname"/>
+
+<input class="yourclass" id="mail" type="email" name="email" placeholder="yourmail@yahoo.com" />
+
+<select class="yourclass" name="country" id="country" placeholder="country">
+<option value="Spain" selected>Spain</option>
+<option value="Paris">Paris</option>
+<option value="Japon">Japon</option>
+<option value="NewYork">New York</option>
+<option value="HongKong">Hong kong</option>
+</select>
+<textarea class="yourclass" name="request" id="request" cols="66" rows="10" placeholder="Message here..."></textarea>
+<button class="yourclass" type="submit">Submit</button>
+
+
+</form>
+</div>
+
+</body>
+</html>

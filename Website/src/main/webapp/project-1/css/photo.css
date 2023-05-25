@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+.container {
+	font-family: Georgia;
+    max-width: 100%;
+    padding: 20px;
+    display: flexbox;
+  }
+  
+  @media (max-width: 700px) {
+    .container {
+      padding: 10px;
+    }
+}
+
+.section{
+	background-color: #333;
+	text-align: center;
+	width: 960px;
+	height:auto ;
+	margin-left: 400px;
+	padding: 0;
+}
+
+
+.img1{
+	float: left;
+	width: 450px;
+	height: 350px;
+	margin:25px;
+}
+.img2{
+	width: 400px;
+	height: 300px;
+	float: inherit;
+	margin:25px;
+}
+.img3{
+	float: right;
+	width: 400px;
+	height: 450px;
+	margin:25px;
+}
+.img4{
+	float: right;
+	width: 400px;
+	height: 300px;
+	margin:25px; 
+}
+.img5{
+	float: inherit;
+	width: 400px;
+	height: 300px;
+	margin:25px;
+}
+.img6{
+	float: inherit;
+	width: 400px;
+	height: 300px;
+	margin:20px;
+}
+.img7{
+	float: inherit;
+	width: 300px;
+	height: 300px;
+	margin:20px;
+}
+.img8{
+	float: inherit;
+	width: 400px;
+	height: 300px;
+	margin:20px;
+}
+.img9{
+	float: inherit;
+	width: 400px;
+	height: 300px;
+	margin:20px;
+}
+.img10{
+	float: inherit;
+	width: 400px;
+	height: 300px;
+	margin:20px;
+}
+.img11{
+	float: inherit;
+	width: 400px;
+	height: 300px;
+	margin:20px;
+}
+.img12{
+	float: inherit;
+	width: 400px;
+	height: 300px;
+	margin:20px;
+}

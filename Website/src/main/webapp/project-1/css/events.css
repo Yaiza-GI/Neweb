@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+.container {
+	font-family: Georgia;
+    max-width: 100%;
+    padding: 20px;
+    display: flexbox;
+  }
+  
+  @media (max-width: 700px) {
+    .container {
+      padding: 10px;
+    }
+}
+
+.section{
+	background-color: #333;
+	text-align: center;
+	width: 960px;
+	height:auto ;
+	margin-left: 400px;
+	padding: 0;
+}
+h1{
+	margin-top: 0;
+	color: white;
+}
+p{
+	color: white;
+	size: 20px;
+	padding: 5px;
+	margin: 5px;
+}
+.img1{
+	float: inherit;
+	width: 450px;
+	height: 350px;
+	margin:25px;
+}
+.img2{
+	float: inherit;
+	width: 450px;
+	height: 350px;
+	margin:25px;
+}

@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+.container {
+	font-family: Georgia;
+    max-width: 100%;
+    padding: 20px;
+    display: flexbox;
+  }
+  
+  @media (max-width: 700px) {
+    .container {
+      padding: 10px;
+    }
+}
+
+.section{
+	background-color: #333;
+	text-align: center;
+	width: 960px;
+	height:auto ;
+	margin-left: 400px;
+	padding: 0;
+}
+
+h1{
+	margin-top: 0;
+	color: white;
+	padding-top: 10px;
+}
+.img1{
+	float: inherit;
+	width: 450px;
+	height: 350px;
+	margin:20px;
+}
+.img2{
+	width: 400px;
+	height: 300px;
+	float: inherit;
+	margin:20px;
+}
+.img3{
+	float: inherit;
+	width: 400px;
+	height: 300px;
+	margin:20px;
+}
+.img4{
+	float: inherit;
+	width: 400px;
+	height: 300px;
+	margin:20px; 
+}
